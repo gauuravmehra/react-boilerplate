@@ -1,0 +1,39 @@
+@import '../variables/variable.css';
+
+.paragraph {
+  color: var(--theme-color-black);
+  line-height: var(--line-height);
+  font-family: var(--theme-family-body);
+  font-size: var(--font-regular);
+}
+
+.base {
+  composes: paragraph;
+  composes: mb1 from global;
+}
+
+.primary {
+  composes: my0 from global;
+  font: var(--theme-paragraph-font);
+  hyphens: auto;
+}
+
+.lead {
+  composes: my0 from global;
+  font: var(--theme-lead-font);
+}
+
+.smallLight {
+  composes: paragraph;
+  font: var(--theme-b2-lg-sans-font-light);
+  line-height: var(--line-height);
+}
+
+.mediumLight {
+  composes: paragraph;
+  font: var(--theme-b1-lg-font-light);
+}
+
+.errorMessage {
+  color: var(--color-alert);
+}

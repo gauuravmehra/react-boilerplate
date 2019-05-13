@@ -1,0 +1,44 @@
+@import '../variables/variable.css';
+
+--font-heading-xl: 40px;
+--font-heading-lg: 26px;
+--font-heading-regular: 20px;
+--font-heading-md: 18px;
+--font-heading-sm: 14px;
+--font-heading-xs: 12px;
+
+.level1 {
+  font: var(--theme-heading-font-dark);
+  font-size: var(--font-heading-xl);
+  margin-bottom: 10px;
+}
+
+.level2 {
+  font: var(--theme-heading-font-light);
+  font-size: var(--font-heading-lg);
+  margin-bottom: 10px;
+}
+
+.level3 {
+  font: var(--theme-body-font-dark);
+  font-size: var(--font-heading-regular);
+  margin-bottom: 10px;
+}
+
+.level4 {
+  font: var(--theme-body-font);
+  font-size: var(--font-heading-md);
+  margin-bottom: 10px;
+}
+
+.level5 {
+  font: var(--theme-body-font-dark);
+  font-size: var(--font-heading-sm);
+  margin-bottom: 10px;
+}
+
+.level6 {
+  font: var(--theme-body-font);
+  font-size: var(--font-heading-xs);
+  margin-bottom: 10px;
+}

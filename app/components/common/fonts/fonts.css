@@ -1,0 +1,33 @@
+/* Font face declaration for the application */
+
+@font-face {
+  font-family: "Merriweather-Black";
+  font-weight: 300;
+  src: url("../../../assets/fonts/Merriweather-Black.woff2") format("woff2"),
+    url("../../../assets/fonts/Merriweather-Black.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Merriweather-Light";
+  font-weight: 300;
+  src: url("../../../assets/fonts/Merriweather-Light.woff2") format("woff2"),
+    url("../../../assets/fonts/Merriweather-Light.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  font-weight: 300;
+  src: url("../../../assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../../../assets/fonts/OpenSans-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  font-weight: 300;
+  src: url("../../../assets/fonts/OpenSans-SemiBold.woff2") format("woff2"),
+    url("../../../assets/fonts/OpenSans-SemiBold.woff") format("woff");
+  font-display: swap;
+}

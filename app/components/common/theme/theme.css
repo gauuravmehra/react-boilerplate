@@ -1,0 +1,52 @@
+@import '../fonts/fonts.css';
+
+/* Font */
+:root {
+  --theme-family-heading: Merriweather-Black, Times New Roman, Arial, sans-serif;
+  --theme-family-heading-light: Merriweather-Light, Times New Roman, Arial, sans-serif;
+  --theme-family-body: OpenSans-Regular, Helvetica, Arial, sans-serif;
+  --theme-family-body-bold: OpenSans-SemiBold, Helvetica, Arial, sans-serif;
+}
+
+/* Font Family */
+:root {
+  --theme-heading-font-dark: 400 30px/1.4 var(--theme-family-heading);
+  --theme-heading-font-light: 300 20px/1.4 var(--theme-family-heading-light);
+  --theme-body-font: 300 16px/1.43 var(--theme-family-body);
+  --theme-body-font-dark: 400 14px/1.43 var(--theme-family-body-bold);
+}
+
+/* Heading Font Sizes */
+:root {
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-regular: 16px;
+  --font-md-lg: 20px;
+  --font-lg: 24px;
+  --font-xlg: 30px;
+}
+
+/* Body Font Sizes */
+:root {
+  --font-heading-xl: 40px;
+  --font-heading-lg: 26px;
+  --font-heading-regular: 20px;
+  --font-heading-md: 18px;
+  --font-heading-sm: 14px;
+  --font-heading-xs: 12px;
+}
+
+:root {
+  --line-height: 1.4;
+}
+
+/* Theme Colors */
+:root {
+  --theme-light-green: rgba(133, 255, 199, 1);
+  --theme-dark-green: rgba(41, 115, 115, 1);
+  --theme-orange: rgba(255, 133, 82, 1);
+  --theme-light-grey: rgba(230, 230, 230, 1);
+  --theme-dark-grey: rgba(57, 57, 58, 1);
+
+  --theme-color-black: #000;
+}

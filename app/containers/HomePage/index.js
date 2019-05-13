@@ -20,6 +20,7 @@ import {
 } from 'containers/App/selectors';
 import H2 from 'components/H2';
 import ReposList from 'components/ReposList';
+import Heading from 'components/common/heading/heading';
 import AtPrefix from './AtPrefix';
 import Form from './Form';
 import Input from './Input';
@@ -61,6 +62,26 @@ export class HomePage extends React.PureComponent {
           />
         </Helmet>
         <div>
+          <Section className="{styles.centered}">
+            <Heading level="1" styleVariation="level1">
+              Gaurav Mehra
+            </Heading>
+            <Heading level="2" styleVariation="level2">
+              Gaurav Mehra
+            </Heading>
+            <Heading level="3" styleVariation="level3">
+              Gaurav Mehra
+            </Heading>
+            <Heading level="4" styleVariation="level4">
+              Gaurav Mehra
+            </Heading>
+            <Heading level="5" styleVariation="level5">
+              Gaurav Mehra
+            </Heading>
+            <Heading level="6" styleVariation="level6">
+              Gaurav Mehra
+            </Heading>  
+          </Section>
           <Section className="{styles.centered}">
             <H2>Project Header</H2>
             <p>Start Project Message</p>
